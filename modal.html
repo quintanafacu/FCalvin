@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dialogo.css">
+</head>
+
+<body>
+    <dialog class="modal" >
+        <h2>ventana emergente</h2>
+        <p>lorem</p>
+        <button id="botoncerrar">x</button>
+
+    </dialog>
+
+    <h1>etiqueta dialogo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus optio autem, ipsa tempore, assumenda
+        quaerat odio similique, ea nisi facere perferendis minus deleniti numquam repellendus voluptas provident alias.
+        Natus, molestiae.</p>
+    <button id="botonabrir">abrir ventana</button>
+    <h3>imagen fija</h3>
+    <div class="classimagenfija"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aspernatur corporis nostrum tempore quae optio voluptates fugit facere, porro velit magnam asperiores eligendi ex, nihil quo quod illum nemo explicabo.
+    Reiciendis repudiandae sit neque fuga maiores voluptatibus et, omnis voluptas non impedit deleniti dolores aliquid quidem ut? Nihil dolores error quae. Iure quos quidem dolore quod at voluptatem ratione voluptate!
+    Optio odit praesentium ad inventore reprehenderit doloremque non. Quo quia, sunt, praesentium recusandae nulla aliquid minima iste cupiditate beatae reiciendis omnis, laborum sit blanditiis? Aperiam vitae voluptas facere. Rerum, odit!
+    Qui, necessitatibus quos quis atque omnis magni tempore magnam dignissimos rerum, ad quaerat porro voluptatum neque? Placeat numquam fugit quasi nemo perferendis id consequuntur dicta aperiam, corrupti, aliquid ipsum doloremque?
+    Illum doloribus omnis iste labore incidunt, distinctio quis dolore sequi ea, rem reiciendis, ullam fugit enim. Voluptatibus dicta adipisci hic rerum labore! Repellat laboriosam sapiente repellendus animi odio dolorem quo.
+    Eaque beatae perferendis nostrum iste eum molestias, illum magnam corrupti consequatur quidem, repudiandae ipsam vero assumenda maxime ex eligendi suscipit accusamus atque labore veniam nemo possimus ab asperiores dolorum. Explicabo.
+    Perferendis alias temporibus necessitatibus unde repudiandae delectus illo natus, harum vitae itaque? Et corporis, autem cumque libero, iusto eum asperiores facere animi, velit eveniet placeat possimus corrupti dolorum? Excepturi, architecto.
+    Nam ullam nobis possimus fugit sapiente neque veniam voluptatem ipsa dicta corrupti ducimus fugiat suscipit atque fuga dignissimos officiis, quisquam voluptates! Est magnam possimus, eius nobis repellendus velit nihil expedita?
+    Laboriosam, repudiandae animi perspiciatis vitae officiis voluptate quia voluptates, doloremque, explicabo facere doloribus. Rem voluptates iusto cum explicabo nemo quia eos sit debitis, possimus totam excepturi architecto exercitationem iure suscipit?
+    Ipsam, odio totam. Atque voluptatum reprehenderit debitis modi officiis officia illum facilis quae ad, possimus, qui quasi! Aliquid molestiae quasi quas, maxime fuga quo, laborum numquam iusto fugiat praesentium facere.
+    Omnis pariatur obcaecati inventore eos hic ad laboriosam tempora in tenetur ut illum delectus, libero quam est molestiae a? Nobis ab dignissimos quia in impedit libero rem ex eligendi distinctio!
+    Porro cupiditate dolorum at optio incidunt animi, maxime, alias accusamus laboriosam distinctio, officiis voluptas aliquam corrupti quas debitis blanditiis ex qui molestiae deserunt numquam inventore asperiores? Officiis saepe blanditiis explicabo.
+    Porro dolores culpa quaerat quidem dolorum ipsa laudantium perferendis quod facere minima nam magnam ea praesentium, reprehenderit consectetur, amet repudiandae! Architecto, iusto delectus harum modi eaque iure. Suscipit, consequuntur! Expedita?
+    Inventore odio commodi assumenda! Itaque maiores dolores alias esse enim quos provident repellendus magnam velit quo totam molestiae in ea, non temporibus amet doloremque nisi nesciunt perferendis excepturi error? Nam.
+    Quis perspiciatis dolorum nihil! Atque culpa eaque eligendi obcaecati porro voluptatem odio doloremque nesciunt saepe vero minima distinctio dicta, vitae placeat perferendis, recusandae ipsam nihil suscipit ullam qui eum. Voluptatum!
+    Ea ipsam, labore praesentium hic consectetur quasi nemo expedita eius nisi repellat ipsa, sequi dignissimos id recusandae tenetur eaque! Cupiditate ipsam error impedit similique, corporis sequi alias soluta aut corrupti?
+    Amet, recusandae! Harum ducimus ut fuga ab perspiciatis explicabo omnis atque, possimus, officia nobis repellat tenetur? Repellendus autem inventore voluptate, nihil error, labore fugiat incidunt odio architecto expedita recusandae perferendis.
+    Dicta harum beatae aliquid nihil ipsa excepturi, voluptatibus quisquam numquam ratione quod inventore in, sunt quo modi reiciendis error? Iure velit dolorem, possimus praesentium dolor dolores minus impedit iste iusto!
+    Excepturi, enim accusamus. Voluptatibus sint delectus provident eveniet, qui porro, voluptatum vitae repellendus, consequuntur culpa numquam. Animi perspiciatis recusandae, saepe, facere blanditiis minima error repellendus a, molestias harum quasi temporibus.
+    Facere, corrupti ab odio aspernatur nemo ad ipsam id dolor laborum sit deleniti odit! Est, dicta error? Harum quasi optio facilis quae aliquid excepturi dolor iste, recusandae, voluptatum, deleniti alias.</p>
+
+    <script>
+        const botonabrir = document.querySelector("#botonabrir");
+        const modal = document.querySelector(".modal");
+        const botoncerrar = document.querySelector("#botoncerrar");
+
+        botonabrir.addEventListener("click",function(){
+            modal.showModal();
+        });
+
+        botoncerrar.addEventListener("click",function(){
+            modal.close();
+        });
+
+    </script>
+
+</body>
+
+</html>
